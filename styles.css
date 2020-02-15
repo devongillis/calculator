@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 6000px) {
     /* list rules for devices with horizontal resolution up to 600px */
 	.calculator_box {
 		border-style: solid;
