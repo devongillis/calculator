@@ -6,16 +6,6 @@
 	margin: auto;
 }
 
-@media only screen and handheld  and (max-device-width:200px){
-	.calculator_box {
-		border-style: solid;
-		width: 100%;
-		height: 100%;
-		background-color: rgb(232, 0, 232);
-		margin: auto;
-	}
-}
-
 #typed_display {
 	background-color: white;
 	border-style: solid;
@@ -61,4 +51,14 @@ button {
 button:hover {
   background-color: rgb(76, 175, 80);
   color: white;
+}
+
+@media only screen and handheld  and (max-device-width:200px){
+	.calculator_box {
+		border-style: solid;
+		width: 100%;
+		height: 100%;
+		background-color: rgb(232, 0, 232);
+		margin: auto;
+	}
 }
