@@ -1,0 +1,66 @@
+@media only screen and (max-device-width: 600px) {
+    /* list rules for devices with horizontal resolution up to 600px */
+	.calculator_box {
+		border-style: solid;
+		width: 600px;
+		height: 600px;
+		background-color: rgb(232, 232, 232);
+		margin: auto;
+	}
+}
+
+
+.calculator_box {
+	border-style: solid;
+	width: 600px;
+	height: 600px;
+	background-color: rgb(232, 232, 232);
+	margin: auto;
+}
+
+#typed_display {
+	background-color: white;
+	border-style: solid;
+	width: 560px;
+	height: 100px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#answer_display {
+	background-color: white;
+	border-style: solid;
+	width: 560px;
+	height: 100px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.button_table {
+	margin: auto;
+	margin-top: 35px;
+	border-style: solid;
+	width: 560px;
+	text-align: center;
+}
+
+button {
+	background-color: rgb(175, 192, 237);
+	color: white;
+	padding: 0px 0px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 1000;
+	border-radius: 12px;
+	font-family: Andale Mono, monospace;
+	width: 125px;
+	height: 50px;
+}
+
+button:hover {
+  background-color: rgb(76, 175, 80);
+  color: white;
+}
