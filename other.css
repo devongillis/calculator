@@ -18,7 +18,7 @@
 #answer_display {
 	background-color: white;
 	border-style: solid;
-	width: 93%px;
+	width: 93%;
 	height: 100px;
 	margin: auto;
 	margin-top: 10px;
@@ -28,7 +28,7 @@
 	margin: auto;
 	margin-top: 35px;
 	border-style: solid;
-	width: 93%px;
+	width: 93%;
 	text-align: center;
 }
 
@@ -44,7 +44,7 @@ button {
 	font-weight: 1000;
 	border-radius: 12px;
 	font-family: Andale Mono, monospace;
-	width: 20%px;
+	width: 20%;
 	height: 50px;
 }
 
