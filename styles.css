@@ -2,8 +2,8 @@
     /* list rules for devices with horizontal resolution up to 600px */
 	.calculator_box {
 		border-style: solid;
-		width: 600px;
-		height: 600px;
+		width: 100%;
+		height: 100%;
 		background-color: rgb(232, 232, 232);
 		margin: auto;
 	}
