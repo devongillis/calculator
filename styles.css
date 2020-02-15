@@ -6,7 +6,7 @@
 	margin: auto;
 }
 
-@media handheld {
+@media only screen and handheld {
 	.calculator_box {
 		border-style: solid;
 		width: 100%;
