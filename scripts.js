@@ -44,7 +44,7 @@ function typeCharacter(c){
 
 function clearEquationChar(){
 	if(expression.endsWith("ans")){
-		// we assume multiplication
+		// must remove three characters "ans"
 		expression = expression.substring(0, expression.length - 3);
 	}
 	else{
@@ -61,7 +61,7 @@ function clearEquation(){
 function calculateAnswer(){
 	printEqualSign();
 	expression = expression.replace(/ans/g, answer.toString());
-	// in these two while loops we are adding "*" between brackets as eval() doesn't like "(5)5 but will work on (5)*5
+	// in these two while loops we are adding "*" between brackets as eval() doesn't like "(5)5" but will work on "(5)*5"
 	// we check for a bracket and then check if the char beside it is a number, if so then interpet as multiplication
 	let i = 0;
 	while(i < expression.length){
@@ -147,7 +147,7 @@ function toggleStoreRetrieve(){
 function slotOne(){
 	if(str){
 		slt1 = answer;
-		alert(slt1);
+		//alert(slt1);
 		str = false;
 		document.getElementById("button_store").style.backgroundColor = "rgb(175, 192, 237)";
 	}
